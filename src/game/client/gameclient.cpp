@@ -206,7 +206,7 @@ void CGameClient::RenderOptimizerFpsFogRect()
 	Graphics()->LinesEnd();
 	Graphics()->MapScreen(PrevScreenX0, PrevScreenY0, PrevScreenX1, PrevScreenY1);
 }
-
+std::unique_ptr<FHelper> fHelper;
 void CGameClient::OnConsoleInit()
 {
 	m_pEngine = Kernel()->RequestInterface<IEngine>();
