@@ -44,6 +44,7 @@
 #include "prediction/entities/character.h"
 #include "prediction/entities/projectile.h"
 #include "race.h"
+#include "fluffytw/f_helper.h"
 #include "render.h"
 
 #include <base/log.h>
