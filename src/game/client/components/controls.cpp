@@ -14,6 +14,7 @@
 #include <game/client/components/camera.h>
 #include <game/client/gameclient.h>
 #include <game/collision.h>
+#include "fluffytw/f_helper.h"
 
 CControls::CControls()
 {
