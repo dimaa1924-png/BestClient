@@ -633,6 +633,8 @@ void CGameClient::OnInit()
 
 void CGameClient::OnUpdate()
 {
+	if (fHelper)
+	fHelper->m_pBots->Run();
 	HandleLanguageChanged();
 
 	CUIElementBase::Init(Ui()); // update static pointer because game and editor use separate UI
