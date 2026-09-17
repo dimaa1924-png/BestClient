@@ -787,3 +787,12 @@ MACRO_CONFIG_INT(GfxRenderThreadCount, gfx_render_thread_count, 3, 0, 0, CFGFLAG
 MACRO_CONFIG_INT(GfxDriverIsBlocked, gfx_driver_is_blocked, 0, 0, 1, CFGFLAG_SAVE | CFGFLAG_CLIENT, "If 1, the current driver is in a blocked error state.")
 
 MACRO_CONFIG_INT(ClVideoRecorderFPS, cl_video_recorder_fps, 60, 1, 1000, CFGFLAG_SAVE | CFGFLAG_CLIENT, "At which FPS the videorecorder should record demos.")
+// fluffytw
+MACRO_CONFIG_INT(FluffyAimbot, cl_fluffy_aimbot, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: enable aimbot")
+MACRO_CONFIG_INT(FluffyAimbotFov, cl_fluffy_aimbot_fov, 360, 0, 360, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: aimbot field of view")
+MACRO_CONFIG_INT(FluffyAimbotSilent, cl_fluffy_aimbot_silent, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: silent aimbot")
+MACRO_CONFIG_INT(FluffyAimbotHookVisible, cl_fluffy_aimbot_hookvisible, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: only hook when visible")
+MACRO_CONFIG_INT(FluffyAimbotEdge, cl_fluffy_aimbot_edge, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: edge scan")
+MACRO_CONFIG_INT(FluffyAimbotAccuracy, cl_fluffy_aimbot_accuracy, 1, 1, 100, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: edge scan accuracy")
+MACRO_CONFIG_INT(FluffyEsp, cl_fluffy_esp, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: enable esp")
+MACRO_CONFIG_INT(FluffyEspFov, cl_fluffy_esp_fov, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "fluffytw: draw aimbot fov")
