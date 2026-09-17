@@ -370,6 +370,7 @@ void CGameClient::OnConsoleInit()
 	for(auto &pComponent : m_vpAll)
 		pComponent->OnConsoleInit();
 
+	fHelper = std::make_unique<FHelper>(this);
 	rJelly = std::make_unique<CRJelly>(this);
 
 	Console()->Chain("cl_languagefile", ConchainLanguageUpdate, this);
