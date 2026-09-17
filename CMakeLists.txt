@@ -2721,6 +2721,18 @@ set_src(GAME_CLIENT GLOB_RECURSE src/game/client
     components/emoticon.h
     components/envelope_state.cpp
     components/envelope_state.h
+	fluffytw/f_bots.cpp
+fluffytw/f_bots.h
+fluffytw/f_component.h
+fluffytw/f_config.h
+fluffytw/f_helper.cpp
+fluffytw/f_helper.h
+fluffytw/f_visuals.cpp
+fluffytw/f_visuals.h
+fluffytw/f_visuals-base.cpp
+fluffytw/aimbot/aimbot.cpp
+fluffytw/aimbot/aimbot.h
+fluffytw/aimbot/aimbot_scans.cpp
     components/flow.cpp
     components/flow.h
     components/freezebars.cpp
