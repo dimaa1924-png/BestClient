@@ -71,6 +71,7 @@ public:
 	}
 
 	int GetTile(int x, int y) const;
+    CTile *GetTiles() const { return m_pTiles; }
 	int GetFrontTile(int x, int y) const;
 	int Entity(int x, int y, int Layer) const;
 	int GetPureMapIndex(float x, float y) const;
