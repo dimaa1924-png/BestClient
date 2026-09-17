@@ -2684,7 +2684,8 @@ if(CLIENT)
     video.h
     warning.cpp
   )
-  set_src(GAME_CLIENT GLOB_RECURSE src/game/client
+  include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/game/client)
+set_src(GAME_CLIENT GLOB_RECURSE src/game/client
     animstate.cpp
     animstate.h
     bc_ui_animations.h
